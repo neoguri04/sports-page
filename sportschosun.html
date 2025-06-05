@@ -77,10 +77,11 @@
       margin-bottom: 12px;
     }
     .sidebar ol {
-      padding-left: 18px;
+      padding-left: 20px;
     }
     .sidebar li {
-      margin-bottom: 14px;
+      margin-bottom: 12px;
+      line-height: 1.6;
     }
     h1 {
       font-size: 26px;
@@ -121,54 +122,42 @@
       margin-bottom: 25px;
       text-align: center;
     }
-
-    /* ✅ 모바일 반응형 추가 */
     @media (max-width: 768px) {
       .container {
         flex-direction: column;
         gap: 20px;
         padding: 0 16px;
       }
-
       .main, .sidebar {
         box-shadow: none;
         padding: 20px;
       }
-
       h1 {
         font-size: 22px;
       }
-
       h2 {
         font-size: 16px;
       }
-
       .content p {
         font-size: 15px;
       }
-
       nav {
         font-size: 13px;
         padding: 8px;
       }
-
       nav a {
         margin: 6px 8px;
         display: inline-block;
       }
-
       .poster-row {
         flex-direction: column;
       }
-
       .poster-row img {
         width: 100%;
       }
-
       .sidebar {
         font-size: 14px;
       }
-
       .right-icons img {
         height: 14px;
       }
@@ -224,20 +213,20 @@
     <div class="sidebar">
       <h3>오늘 많이 본 정보</h3>
       <ol>
-        <li><strong>日 축구계 발칵…</strong>우라와, 클럽 월드컵 앞두고 '2부 득점왕' 유럽파 깜짝 영입! 거금 쏟아부었다<br><em>스포탈코리아</em></li>
-        <li><strong>축구 대표팀</strong>, 내일(6일) 이라크 결전 앞두고 마지막 훈련…홍명보 감독 “반드시 승점 획득”<br><em>헤럴드경제</em></li>
-        <li><strong>[SPO 현장]</strong> '슈퍼스타 기질' 자신의 시간 기다린 이승우, 시간을 자신의 것으로 만들다 "승리는 팬들 덕분"<br><em>스포티비뉴스</em></li>
-        <li><strong>실전 감각은 '완벽'</strong> - 체력도 '여유'...PSG 트레블 벤치서 지켜본 이강인, 이라크전서 펄펄 날까<br><em>OSEN</em></li>
-        <li><strong>'이렇게 빨리?'</strong> UCL 결승서 PSG에 0-5 대패한 인자기 감독, 사우디서 새출발... 알 힐랄과 2년 계약[공식발표]<br><em>OSEN</em></li>
-        <li><strong>승격 노리는 수원 삼성,</strong> 울산 베테랑 수비수 황석호 영입<br><em>뉴스1</em></li>
+        <li>日 축구계 발칵…우라와, 클럽 월드컵 앞두고 '2부 득점왕' 유럽파 깜짝 영입! 거금 쏟아부었다<br><em>스포탈코리아</em></li>
+        <li>축구 대표팀, 내일(6일) 이라크 결전 앞두고 마지막 훈련…홍명보 감독 “반드시 승점 획득”<br><em>헤럴드경제</em></li>
+        <li>[SPO 현장] '슈퍼스타 기질' 자신의 시간 기다린 이승우, 시간을 자신의 것으로 만들다 "승리는 팬들 덕분"<br><em>스포티비뉴스</em></li>
+        <li>실전 감각은 '완벽' - 체력도 '여유'...PSG 트레블 벤치서 지켜본 이강인, 이라크전서 펄펄 날까<br><em>OSEN</em></li>
+        <li>'이렇게 빨리?' UCL 결승서 PSG에 0-5 대패한 인자기 감독, 사우디서 새출발... 알 힐랄과 2년 계약[공식발표]<br><em>OSEN</em></li>
+        <li>승격 노리는 수원 삼성, 울산 베테랑 수비수 황석호 영입<br><em>뉴스1</em></li>
       </ol>
       <h3>연예 많이 본 뉴스</h3>
       <ol>
-        <li><strong>1. 윤민수,</strong> '7억대 소송' 벤과 불화설 일축 "저도 그 회사 나왔어요"</li>
-        <li><strong>2. 강지영,</strong> 14년 전 탈락의 아픔 극복했다…라디오로 MBC 재입성 [SC이슈]</li>
-        <li><strong>3. 故오요안나 추모문화제,</strong> MBC 앞서 열린다…"노동자 아니라고? 부당해" [SC이슈]</li>
-        <li><strong>4. 손연재,</strong> 맥시멀한 아들방 공개 “남편 곰인형 수상해…추궁했더니 계속 말 돌리더라”</li>
-        <li><strong>5. '돌싱' 안재현,</strong> "법적으로 총각이면.." 깜짝 발언에 이민정도 폭소('가오정')</li>
+        <li>1. 윤민수, '7억대 소송' 벤과 불화설 일축 "저도 그 회사 나왔어요"</li>
+        <li>2. 강지영, 14년 전 탈락의 아픔 극복했다…라디오로 MBC 재입성 [SC이슈]</li>
+        <li>3. 故오요안나 추모문화제, MBC 앞서 열린다…"노동자 아니라고? 부당해" [SC이슈]</li>
+        <li>4. 손연재, 맥시멀한 아들방 공개 “남편 곰인형 수상해…추궁했더니 계속 말 돌리더라”</li>
+        <li>5. '돌싱' 안재현, "법적으로 총각이면.." 깜짝 발언에 이민정도 폭소('가오정')</li>
       </ol>
     </div>
   </div>
