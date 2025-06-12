@@ -130,11 +130,18 @@ nav a {
       margin: 20px auto;
       border-radius: 6px;
     }
-    .reporter-info { /* New style for the reporter email */
+    .reporter-info { /* Changed text-align to left */
         font-size: 14px;
         color: #555;
         margin-top: 30px;
-        text-align: right;
+        text-align: left; /* 이 부분을 right에서 left로 변경했습니다. */
+    }
+    .article-lead {
+        display: inline;
+        font-size: 16px;
+        color: #222;
+        margin-right: 5px;
+        font-weight: bold;
     }
 
     @media (max-width: 768px) {
@@ -174,11 +181,11 @@ nav a {
   </nav>
   <div class="container">
     <div class="main">
-      <div class="meta">[스포츠조선 이찬혁 기자]</div> <h1>FIFA, 팬과 함께하는 헌정 캠페인 ‘A Nation’s Legacy’ 론칭</h1>
+      <h1>FIFA, 팬과 함께하는 헌정 캠페인 ‘A Nation’s Legacy’ 론칭</h1>
       <h2>“당신의 메시지로 레전드를 완성하다”</h2>
       <div class="meta">이찬혁 기자 | 기사입력 2022-11-07</div>
       <div class="content">
-        <p>FIFA가 2022 카타르 월드컵 개막을 앞두고, 축구 팬들과 함께 만드는 특별한 헌정 프로젝트 ‘A Nation’s Legacy’를 공개했다. 이번 프로젝트는 리오넬 메시, 크리스티아누 호날두, 루카 모드리치, 카림 벤제마 등 세계적인 스타 선수들의 마지막 여정을 기념하며, 팬 참여를 중심으로 한 새로운 방식의 헌정 형식을 제안한다.</p>
+        <p><span class="article-lead">[스포츠조선 이찬혁 기자]</span> FIFA가 2022 카타르 월드컵 개막을 앞두고, 축구 팬들과 함께 만드는 특별한 헌정 프로젝트 ‘A Nation’s Legacy’를 공개했다. 이번 프로젝트는 리오넬 메시, 크리스티아누 호날두, 루카 모드리치, 카림 벤제마 등 세계적인 스타 선수들의 마지막 여정을 기념하며, 팬 참여를 중심으로 한 새로운 방식의 헌정 형식을 제안한다.</p>
         <img src="screen.png" alt="Dear Legend 예시" class="full">
         <div class="caption">▲ 도하 시내 초대형 스크린 'Dear Legend' 예시 이미지</div>
         <p>가장 눈에 띄는 콘텐츠는 디지털 타임캡슐 플랫폼 ‘Dear Legend’다. 팬들은 FIFA가 마련한 웹페이지에서 선수를 선택해 메시지와 사진을 업로드할 수 있으며, 이는 도하 시내 초대형 스크린에 실시간으로 게시된다. FIFA는 “팬의 목소리는 기억의 캡슐이 된다”며 SNS 해시태그 #DearLegend를 통한 참여를 독려하고 있다.</p>
@@ -199,7 +206,8 @@ nav a {
         <p><strong>Part 2 'A Nation’s Fighter'</strong>는 피구와 호날두를 중심으로 포르투갈 축구의 부상과 성장기를 다룬다.</p>
         <p><strong>Part 3 'Who is GOAT?'</strong>는 단 1분 분량의 짧은 영상으로, 무수한 질문들을 빠르게 교차 편집한 뒤 단 하나의 질문—"Who is GOAT?"—을 남긴다.</p>
         <p>FIFA 관계자는 “이번 캠페인은 단순한 선수 헌정이 아니라 팬과 함께 완성하는 축구 문화”라며 “진정한 월드컵의 유산은 팬들의 손끝에서 살아 숨 쉬게 될 것”이라고 강조했다.</p>
-        <div class="reporter-info">@이찬혁기자 / neoguri04@sportschosun.com</div> </div>
+        <div class="reporter-info">@이찬혁기자 / neoguri04@sportschosun.com</div>
+      </div>
     </div>
     <div class="sidebar">
       <h3>오늘 많이 본 정보</h3>
